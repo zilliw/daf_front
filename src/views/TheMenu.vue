@@ -39,32 +39,13 @@ export default {
   data: () => ({
     menus: [
       {
-        action: 'mdi-car-electric',
-        title: 'Référentiel Patrimoine',
+        action: 'mdi-cash-multiple',
+        title: 'Affaires',
         items: [
-          { title: 'Patrimoine installé' },
-          { title: 'Patrimoine contruit' },
-          { title: 'Equipements' }
+          { title: 'Affaires' },
+          { title: 'Suivi des temps' },
         ]
       },
-      {
-        action: 'mdi-file-document-edit',
-        title: 'Contrat',
-        items: [
-          { title: 'Contrats' },
-          { title: 'Offres' }
-        ]
-      },
-      {
-        action: 'mdi-connection',
-        title: 'Interface',
-        items: [
-          { title: 'EsaXXX' },
-          { title: 'ProXXXX' },
-          { title: 'OPCI' },
-          { title: 'Salesforce' }
-        ]
-      }
     ]
   })
 }
