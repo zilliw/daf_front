@@ -1,15 +1,15 @@
-<template>
+<template class="container">
     <v-layout>
-        <TheMenu>
-        </TheMenu>
+                <TheMenu>
+                </TheMenu>
         <v-col>
-          <v-row>
-        <TheHeader>
-        </TheHeader>
-          </v-row>
-          <v-row>
-<OpportunityTable>
-</OpportunityTable>
+            <v-row>
+                <TheHeader>
+                </TheHeader>
+            </v-row>
+            <v-row class="item">
+                <OpportunityTable>
+                </OpportunityTable>
             </v-row>
         </v-col>
   </v-layout>
@@ -28,3 +28,15 @@ export default {
   }
 }
 </script>
+
+<style >
+.container {
+        display: flex;
+        max-width: 100%;
+        max-height: 100%;
+}
+.item {
+        display: flex;
+        height: 100%;
+        }
+</style>

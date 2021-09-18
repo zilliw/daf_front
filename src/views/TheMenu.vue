@@ -5,7 +5,6 @@
         color="#fafbfc"
       >
 
-            <v-divider></v-divider>
 
           <v-list>
               <v-list-group
